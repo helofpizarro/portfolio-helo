@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  background: url(./assets/background-section-1.jpg) no-repeat ;
+  background-size: cover !important;
+  height: 750px;
+  justify-content: center;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto 120px auto;
+  width: 620px;
+  justify-content: center;
+  text-align: center;
+}
+
+.profile-image img {
+  margin-top: 120px;
+  border-radius: 50%;
+  width: 96px;
+  height: 96px;
+}
+
+.profile-title {
+  font-family: 'Inconsolata', sans-serif;
+  color: #878EA1;
+  margin-bottom: 8px;
+  margin-top: 56px;
+}
+
+.profile-subtitle {
+  font-family: 'Asap', sans-serif;
+  color: white;
+  margin-bottom: 16px;
+  font-size: 50px;
+}
+
+span {
+  color: #E3646E;
+}
+
+.profile-description {
+  font-family: 'Maven Pro', sans-serif;
+  color: #878EA1;
+  text-align: center;
+}
+
+.soft-skills {
+  display: flex;
+  gap: 16px;
+  margin-top: 80px;
+}
+
+.arrow {
+  margin-top: 94px;
+  margin-bottom: 57px;
+}
+
+.projects-title {
+  background-color: #16181D;
+  height: 917px;
+}
+
+.title {
+  color: #E3646E;
+  font-family: 'Maven Pro', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 72px;
+  margin-bottom: 8px;
+}
+
+
+.subtitle {
+  color: white;
+  font-family: 'Inconsolata', sans-serif;
+  text-align: center;
+  font-size: 32px;
+}
+
+.cards-grids {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  width: 1040px;
+  margin: auto;
+  margin-top: 56px;
+}
+
+.card {
+  width: 330px;
+  height: 280px;
+  border-radius: 12px;
+  background-color: #292C34;
+  padding: 12px;
+}
+
+.card-image img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card-title {
+  color: white;
+  font-family: 'Asap', sans-serif;
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.card-description {
+  color: #878EA1;
+  font-family: 'Maven Pro', sans-serif;
+  margin-top: 12px;
+}
+
+.servicos {
+  background-color: #0D0E11;
+  height: 480px;
+}
+
+.jobs {
+  display: flex;
+  gap: 24px;
+  margin-top: 56px;
+  justify-content: center;
+}
+
+.servicos-title {
+  color: #E3646E;
+  font-family: 'Inconsolata', sans-serif;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 88px;
+  font-weight: 600;
+}
+
+.servicos-subtitle {
+  color: white;
+  font-family: 'Asap', sans-serif;
+  text-align: center;
+  font-size: 32px;
+  margin-top: 8px;
+}
+
+.servicos-card {
+  border: 1px solid #292C34;
+  border-radius: 12px;
+  width: 280px;
+  height: 155px;
+  padding: 20px;
+}
+
+.servicos-card-image {
+  margin-bottom: 20px;
+}
+
+.servicos-card-title {
+  font-family: 'Moven Pro', sans-serif;
+  font-size: 16px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 8px;
+}
+
+.servicos-card-description {
+  font-family: 'Maven Pro', sans-serif;
+  font-size: 14px;
+  color: #C0C4CE;
+  margin-top: 8px;
+}
+
+.contact {
+  background: url(./assets/background-section-1.jpg) no-repeat ;
+  background-size: cover !important;
+  height: 787px;
+  justify-content: center;
+}
+
+.contact-title {
+  color: #BB72E9;
+  font-family: 'Inconsolata', sans-serif;
+  text-align: center;
+  font-size: 24px;
+  padding-top: 88px;
+  font-weight: 600;
+}
+
+.contact-subtitle {
+  color: white;
+  font-family: 'Asap', sans-serif;
+  text-align: center;
+  font-size: 32px;
+  margin-top: 8px;
+}
+
+.contact-description {
+  color: #C0C4CE;
+  font-family: 'Maven Pro', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  margin-top: 24px;
+  padding-bottom: 48px;
+}
+
+.social-media {
+  background-color: #292C34;
+  border-radius: 8px;
+  width: 400px;
+  height: 68px;
+  display: flex;
+  align-items: center;
+  margin:  16px auto;
+  justify-content: space-between;
+
+
+
+}
+
+.social-media-image {
+  width:  28px;
+  height: 28px;
+}
+
+.arrow-up {
+  width: 20px;
+  height: 20px;
+  padding-right: 20px;
+}
+
+.social-media-text {
+  color: white;
+  font-family: 'Asap', sans-serif;
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 0;
+}
+
+.social-media-card {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+
+
